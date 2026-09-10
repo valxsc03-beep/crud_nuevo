@@ -1,18 +1,18 @@
 {
-  "name": "intro-express-js-joshua-nocua",
+  "name": "intro-express-js-valeria-sandoval",
   "version": "1.0.0",
-  "description": "Introduccion a express con la ficha 3407184 del tecnologo ADSO",
+  "description": "introduccion a express con la ficha 3407184",
   "keywords": [],
-  "homepage": "https://github.com/nocuadavid408-boop/intro-express-js-Joshua-Nocua#readme",
+  "homepage": "https://github.com/valxsc03-beep/intro-express-js-valeria-sandoval#readme",
   "bugs": {
-    "url": "https://github.com/nocuadavid408-boop/intro-express-js-Joshua-Nocua/issues"
+    "url": "https://github.com/valxsc03-beep/intro-express-js-valeria-sandoval/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nocuadavid408-boop/intro-express-js-Joshua-Nocua.git"
+    "url": "git+https://github.com/valxsc03-beep/intro-express-js-valeria-sandoval.git"
   },
   "license": "ISC",
-  "author": "Joshua Nocua",
+  "author": "Valeria Sandoval",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,7 @@
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "multer": "^2.2.0"
   }
 }

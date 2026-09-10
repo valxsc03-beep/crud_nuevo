@@ -46,5 +46,13 @@
     "edad": 21,
     "correo": "laura.vargas@example.com",
     "avatar": "imagenes/laura.jpg"
+  },
+  {
+    "dni": 7,
+    "nombre": "valeria",
+    "apellido": "sandoval",
+    "edad": 19,
+    "correo": "vale@example.com",
+    "avatar": "sin imagen"
   }
 ]
