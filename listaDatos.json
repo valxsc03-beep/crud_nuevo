@@ -1,0 +1,50 @@
+[
+  {
+    "dni": 101,
+    "nombre": "Carlos",
+    "apellido": "Mendoza",
+    "edad": 22,
+    "correo": "carlos.mendoza@example.com",
+    "avatar": "imagenes/carlos.jpg"
+  },
+  {
+    "dni": 102,
+    "nombre": "Mariana",
+    "apellido": "Ríos",
+    "edad": 25,
+    "correo": "mariana.rios@example.com",
+    "avatar": "imagenes/mariana.jpg"
+  },
+  {
+    "dni": 103,
+    "nombre": "Andrés",
+    "apellido": "Gómez",
+    "edad": 20,
+    "correo": "andres.gomez@example.com",
+    "avatar": "imagenes/andres.jpg"
+  },
+  {
+    "dni": 104,
+    "nombre": "Camila",
+    "apellido": "Torres",
+    "edad": 30,
+    "correo": "camila.torres@example.com",
+    "avatar": "imagenes/camila.jpg"
+  },
+  {
+    "dni": 105,
+    "nombre": "Felipe",
+    "apellido": "Hernández",
+    "edad": 24,
+    "correo": "felipe.hernandez@example.com",
+    "avatar": "imagenes/felipe.jpg"
+  },
+  {
+    "dni": 106,
+    "nombre": "Laura",
+    "apellido": "Vargas",
+    "edad": 21,
+    "correo": "laura.vargas@example.com",
+    "avatar": "imagenes/laura.jpg"
+  }
+]
