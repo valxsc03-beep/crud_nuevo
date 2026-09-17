@@ -1,8 +1,8 @@
 const express = require('express');
-const registroMiddleware = require('./middleware/registroMiddleware');
-const manejadorErrores = require('./middleware/manejadorErrores');
-const autenticarToken = require ('./middleware/autenticar')
-const jwtoken = require ('./')
+const registroMiddleware = require('.src/middleware/registroMiddleware');
+const manejadorErrores = require('.src/middleware/manejadorErrores');
+const autenticarToken = require ('.src/middleware/autenticar')
+const jwtoken = require ('./src/routes')
 
 const multer = require('multer');
 const sistemaArchivos = require('fs');
@@ -31,7 +31,7 @@ app.use((req, res, next) => {
 app.use('/misimagenes', express.static(ruta.join(__dirname, 'misimagenes')));
 
 // Importar validaciones
-const { validarCampos } = require('./Validaciones/validaciones');
+const { validarCampos } = require('./src/Validaciones/validaciones');
 
 // Configuración de Multer para almacenamiento de archivos
 const almacenamiento = multer.diskStorage({
